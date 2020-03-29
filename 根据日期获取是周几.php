@@ -1,6 +1,9 @@
 <?php
 /**
  * 根据日期获取是周几
+ * dateString string 日期字符串
+ * format string 返回的格式，周几的数字部分用“%s”代替
+ * create： 2020-03-29 22:52:15
  */
 function getWeekBydate($dateString = '', $format = '星期%s')
 {

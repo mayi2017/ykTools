@@ -3,6 +3,7 @@
  * 将时间戳转为天、小时、分、秒
  * time int 两日期相差的差值时间戳【秒数】
  * needSecond bool 是否需要秒，若不需要，则不足60秒按照一分计算
+ * create： 2020-03-29 22:51:48
  */
 function formatTime($time = 0, $needSecond = false)
 {
